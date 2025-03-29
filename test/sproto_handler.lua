@@ -174,6 +174,7 @@ function handler.init(c2s_path, s2c_path)
     end
 
     log("初始化协议成功")
+    log("注意：协议现在使用模块化格式，请使用模块名.协议名的方式调用，例如 Ping.ping 或 Login.signin")
     return true
 end
 
