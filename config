@@ -34,7 +34,7 @@ db_name = "wfff"
 -- Redis配置
 redis_host = "127.0.0.1"
 redis_port = 6379
-redis_password = "123456"
+redis_password = "Wow@123456"
 
 if $DAEMON then
 	logger = root .. "run/skynet.log"
